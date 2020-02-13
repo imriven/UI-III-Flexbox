@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
     padding: 0;
     margin: 0;
 	max-width: 100%;
-	 border:1px solid grey; */
+	border:1px solid grey; */
 }
 
 body {
@@ -110,6 +110,9 @@ h2 {
     font-size: x-large;
 }
 
+h3 {
+    font-size: large;
+}
 .links{
 	display: flex;
 	flex-direction: row;
@@ -240,6 +243,9 @@ img.middle-img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-bottom: 2px solid;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
     
 }
 .digital-design  {
@@ -319,3 +325,29 @@ img.middle-img {
     border-radius: 5px;
 }
 
+/* Facts */
+
+.facts {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.facts-section-left{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+.services-img {
+    display: flex;
+}
+
+.this-list {
+    padding-top: 5%;
+}
+
+.list {
+    list-style-type: square;
+    padding-left: 10%;
+}
