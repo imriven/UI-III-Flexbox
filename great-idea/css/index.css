@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	
 }
 
 h1, h2, h3, h4, h5 {
@@ -71,7 +72,8 @@ h1, h2, h3, h4, h5 {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-width: 100%;
+	max-width: 100%;
+	border:1px solid grey;
 }
 
 body {
@@ -80,8 +82,11 @@ body {
 
 /* navigation */
 nav {
-    display: inline-block;
-    padding-bottom: 1%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: .5%;
     
     overflow: hidden;
     background-color: slateblue;
@@ -92,29 +97,33 @@ nav {
     left: 0%;
 
 }
+.nav-logo {
+	padding-left: 10%;
+}
 
 a {
-    text-decoration: none;
+	text-decoration: none;
     color: white;
-    padding: 0 5%;
+    
 }
 
-.nav-logo {
-    display:inline-block;
-    width: 12%;
-    margin-left: 12%;
-}
-
-.logo img{
-    max-width:100%;
-  }
 
 .links{
-    display:inline-block;
-    width:60%;
-    margin-left:15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-grow: .7;
 }
 
+/* footer */
+
+footer {
+    margin: 10%;
+    text-align: center;
+}
+
+
+/************ HOME *************/
 
 /* introduction */
 
@@ -191,9 +200,5 @@ img.middle-img {
     font-size: small;
 }
 
-/* footer */
 
-footer {
-    margin: 10%;
-    text-align: center;
-}
+/************ SERVICES *************/
