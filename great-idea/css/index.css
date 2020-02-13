@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
     padding: 0;
     margin: 0;
 	max-width: 100%;
-	border:1px solid grey;
+	 border:1px solid grey; 
 }
 
 body {
@@ -127,77 +127,84 @@ footer {
 
 /* introduction */
 
-#intro .intro-right {
-    display: inline-block;
-    width: 70%;
+#intro {
+    display: flex;
+    padding-bottom: 5%;
+    flex-direction: row;
+    justify-content: center;
+    
+   
 }
 
-.intro-image {
-    display: inline-block;
-    width: 50%;
+.intro-right {
+    flex-grow: .2;
+    display: flex;
+    flex-direction: column;
+
 }
 
-h1 {
+.circle-img {
+    padding-left: 20%;
+    
+}
+
+#intro h1{
     font-size: 5em;
     text-align: center;
+    padding-top:12%;
 }
 
-button {
+#intro button {
+
     border: 1px black solid;
-    padding: 5px 4%;
-    margin: 0 0 10% 42%;
+    padding: 5px 3%;
     font-size: 1em;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
 }
 
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+
 /* information */
 
 .middle-top {
+    display: flex;
+    padding: 2% 0;
+    justify-content: space-between;
     border-top: 1px solid;
 }
 
 .features-para {
-    padding: 3% 0;
-    display: inline-block;
-    width: 40%;
+    width: 49%;
 }
 .about-para {
-    padding: 3% 0;
-    display: inline-block;
-    width: 40%;
-    margin-left: 19.5%;
+    width: 49%;
 }
 
 img.middle-img {
-    object-fit: fill;
-    width: 100%;
+    display: flex;
+    flex-grow: 1;
 }
-
 .middle-bottom {
-    border-bottom: 1px solid;
-    margin-bottom: 2%;
+
 }
 
 .services-para {
-    padding: 3% 0;
-    display: inline-block;
-    width: 33%;
+
 }
 .product-para {
-    padding: 3% 0;
-    display: inline-block;
-    width: 33%;
+
 }
 .vision-para {
-    padding: 3% 0;
-    display: inline-block;
-    width: 33%;
+
 }
 
 #information p {
-    font-family: 'Lemonada', cursive;
-    font-size: small;
+
 }
 
 

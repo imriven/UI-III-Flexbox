@@ -1,0 +1,66 @@
+.intro-image {
+    padding-left: 10%;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+button {
+    border: 1px black solid;
+    padding: 5px 4%;
+    margin: 0 0 10% 42%;
+    font-size: 1em;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+/* information */
+
+.middle-top {
+    border-top: 1px solid;
+}
+
+.features-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 40%;
+}
+.about-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 40%;
+    margin-left: 19.5%;
+}
+
+img.middle-img {
+    object-fit: fill;
+    width: 100%;
+}
+
+.middle-bottom {
+    border-bottom: 1px solid;
+    margin-bottom: 2%;
+}
+
+.services-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 33%;
+}
+.product-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 33%;
+}
+.vision-para {
+    padding: 3% 0;
+    display: inline-block;
+    width: 33%;
+}
+
+#information p {
+    font-family: 'Lemonada', cursive;
+    font-size: small;
+}
