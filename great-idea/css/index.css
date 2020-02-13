@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
     padding: 0;
     margin: 0;
 	max-width: 100%;
-	 border:1px solid grey; 
+	/* border:1px solid grey; */
 }
 
 body {
@@ -118,7 +118,7 @@ a {
 /* footer */
 
 footer {
-    margin: 10%;
+    margin: 3%;
     text-align: center;
 }
 
@@ -186,26 +186,30 @@ footer {
 }
 
 img.middle-img {
-    display: flex;
-    flex-grow: 1;
+    object-fit: fill;
+    width: 100%;
+    
 }
 .middle-bottom {
-
+    display: flex;
+    padding: 2% 0;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin-bottom: 2%;
 }
 
 .services-para {
-
+    width: 30%;
 }
 .product-para {
-
+    width: 30%;
 }
 .vision-para {
-
+    width: 30%;
 }
 
-#information p {
 
-}
+
 
 
 /************ SERVICES *************/
